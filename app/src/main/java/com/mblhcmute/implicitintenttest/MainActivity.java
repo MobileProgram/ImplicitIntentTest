@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void launchWebPageButtonClicked(View view) {
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://fhqx.hcmute.edu.vn"));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/MobileProgram"));
         startActivity(intent);
     }
 }
